@@ -1,3 +1,7 @@
+git pull origin master
+git checkout -b pull-request-demo
+git push origin pull-request-demo
+
 <!doctype html> 
 <html>
     <head>
@@ -13,7 +17,7 @@
 
     </head>
     <body>
-        <div id= "container">
+       <div id= "container">
            <div id= "nav">
                
            </div>
@@ -21,43 +25,67 @@
                <div class= "row">
                    <div class= "col-md-12 col-xs-12 col-sm-12 col-lg-12">
                         <div id= "header">
+                            <h1> headline here </h1>
                         </div>
                    </div>
                </div>
                 <div class= "row">
                     <div class= "col-md-4 col-xs-12 col-sm-12 col-lg-4">
                         <div class= "box">
+                            <h2> headline here </h2> 
                         </div>
                     </div>
                     <div class= "col-md-4 col-xs-12 col-sm-12 col-lg-4">
                         <div class= "box">
+                            <h2> headline here </h2> 
                         </div>
                     </div>
                     <div class= "col-md-4 col-xs-12 col-sm-12 col-lg-4">
                         <div class= "box">
+                            <h2> headline here </h2> 
                         </div>
                     </div>
                 </div>
                 <div class= "row">
                     <div class= "col-md-12 col-xs-12 col-sm-12 col-lg-12">
                         <div id= "info">
+                            <h3> headline here </h3> 
                         </div>
                     </div>
                 </div>
+                <!--
+                <form name= "thisform">
+                    Name: <input type= "text" name= "name"/>
+                    </br> 
+                    Email: <input type= "email" name= "email"/>
+                    </br> 
+                    Comments: <input type= "textarea" name= "text"/>
+                    </br> 
+                    <input type= "submit" value= "Submit!" />
+                </form> -->
                 <div class= "row">
                     <div class= "col-md-4 col-xs-12 col-sm-12 col-lg-4">
                         <form id= "theForm" action= "" method= "">
-                            <label for= "name"> Name: </label>
-                            <input type= "text" id= "name" name= ""> 
-                            <label for= "email"> Email: </label>
-                            <input type= "email" id= "email" name= ""> 
-                            <label for= "textarea"> Comments: </label>
-                            <input type= "textarea" id= "textarea" name= "">
-                            <input type= "submit" value= "Submit!">
+                            <p> 
+                                <div class= "row">
+                                    <label for= "name"> Name: </label>
+                                    <input type= "text" id= "name" name= ""> </br></br>
+                                </div>
+                                <div class= "row">
+                                    <label for= "email"> Email: </label>
+                                    <input type= "email" id= "email" name= ""> </br></br>
+                                 </div>
+                                 <div class= "row">
+                                    <label for= "textarea"> Comments: </label>
+                                    <input type= "textarea" id= "textarea" name= ""> </br></br> 
+                                 </div>
+                                 <div class= "row">
+                                    <input type= "submit" value= "Submit!">
+                                </div>
+                             </p> 
                         </form>
                     </div>
-                </div>
-            </div>
-        </div>
+           </div>
+        
     </body>
 </html>
